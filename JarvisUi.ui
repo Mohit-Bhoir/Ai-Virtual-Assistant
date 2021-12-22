@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JarvisUi</class>
+ <widget class="QDialog" name="JarvisUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="bg_1">
+   <property name="geometry">
+    <rect>
+     <x>-120</x>
+     <y>-20</y>
+     <width>1501</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/solid-black-template-templates.jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/system.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>341</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/ExtraGui/Code_Template.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif4">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>410</y>
+     <width>411</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/VoiceReg/Aqua.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>561</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/LIVE WALLPAPER _ AI JARVIS - IRON-MAN _ STATUS REALM _ PC_DESKTOP _ (Download link in description).gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif6">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>200</y>
+     <width>351</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/ExtraGui/Hero_Template.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif8">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>390</y>
+     <width>351</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/ExtraGui/Health_Template.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif1">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>0</y>
+     <width>281</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/ExtraGui/Jarvis_Gui (1).gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif7">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>570</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/ExtraGui/Earth.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_start">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>620</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+font: 20pt &quot;Times New Roman&quot;;
+color: rgb(0, 243, 255);
+border-radius:none;</string>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>610</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 251, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>620</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+font: 20pt &quot;Times New Roman&quot;;
+color: rgb(0, 243, 255);
+border-radius:none;</string>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gif_1">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>570</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/gui/gui3.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>bg_1</zorder>
+  <zorder>gif5</zorder>
+  <zorder>gif3</zorder>
+  <zorder>gif2</zorder>
+  <zorder>gif4</zorder>
+  <zorder>gif6</zorder>
+  <zorder>gif8</zorder>
+  <zorder>gif1</zorder>
+  <zorder>gif7</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_start</zorder>
+  <zorder>pushButton_exit</zorder>
+  <zorder>gif_1</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
