@@ -8,6 +8,6 @@ git status #Just to see the working tree is clean
 
 To generate ssh key
 $ ssh-keygen -t rsa -b 4096 -C "2020ca06f@sigce.edu.in"
-tail <path to id_rsa.pub> #  add this key to your GitHub account 
+$ cat <path to id_rsa.pub> #  add this key to your GitHub account 
 git remote add origin <ssh url.git>
 git push origin master
