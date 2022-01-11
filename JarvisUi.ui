@@ -92,10 +92,10 @@
   <widget class="QLabel" name="gif5">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>200</y>
-     <width>561</width>
-     <height>381</height>
+     <x>350</x>
+     <y>130</y>
+     <width>631</width>
+     <height>461</height>
     </rect>
    </property>
    <property name="text">

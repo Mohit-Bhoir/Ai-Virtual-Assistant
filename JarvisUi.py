@@ -40,7 +40,7 @@ class Ui_JarvisUi(object):
         self.gif4.setScaledContents(True)
         self.gif4.setObjectName("gif4")
         self.gif5 = QtWidgets.QLabel(JarvisUi)
-        self.gif5.setGeometry(QtCore.QRect(380, 200, 561, 381))
+        self.gif5.setGeometry(QtCore.QRect(350, 130, 631, 461))
         self.gif5.setText("")
         self.gif5.setPixmap(QtGui.QPixmap("../../../Downloads/LIVE WALLPAPER _ AI JARVIS - IRON-MAN _ STATUS REALM _ PC_DESKTOP _ (Download link in description).gif"))
         self.gif5.setScaledContents(True)
