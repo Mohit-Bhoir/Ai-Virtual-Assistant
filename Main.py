@@ -12,6 +12,7 @@ import requests
 import pywhatkit
 import keyboard
 from bs4 import BeautifulSoup
+from playsound import playsound
 
 
 engine = pyttsx3.init('sapi5')
@@ -34,18 +35,19 @@ def speak(audio):
 
 
 def WishMe():
-    hour = int(datetime.datetime.now().hour)
-    if hour >= 0 and hour < 12:
-        speak("Good Morning !")
+    playsound('C:\\Users\\mangesh\\Downloads\\JARVIS TIKTOK PC SOUND FREE HIGH QUALITY  AC_DC WINDOWS STARTUP SOUND.mp3',True)
+    # hour = int(datetime.datetime.now().hour)
+    # if hour >= 0 and hour < 12:
+    #     speak("Good Morning !")
 
-    elif hour >= 12 and hour < 18:
-        speak("Good afternoon !")
+    # elif hour >= 12 and hour < 18:
+    #     speak("Good afternoon !")
 
-    else:
-        speak("Good Evening !")
+    # else:
+    #     speak("Good Evening !")
 
-    speak("My name is Jarvis. A virtual AI assistant")
-    speak("Please tell me how can I help you")
+    # speak("My name is Jarvis. A virtual AI assistant")
+    # speak("Please tell me how can I help you")
 
 
 
@@ -399,6 +401,6 @@ def starter():
 
 if __name__ == "__main__":
                 
-         starter()
+   starter()
 
         
